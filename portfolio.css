@@ -16,6 +16,15 @@ body {
     clear:both;
 }
 
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child{
+    margin-bottom:0;
+    
+}
+
 #masthead {
     background:#fff;
     margin: 0 0 30px;
@@ -23,7 +32,7 @@ body {
     color: #fff;
     overflow:auto;
     border-bottom: 2px solid #ccc;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -56,10 +65,11 @@ nav a {
     line-height:18px;
 }
 
-nav a {
-    
+nav a:first-child {
+    border-left:0 none;   
 }
 
+  
 
 
 
